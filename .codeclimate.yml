@@ -56,4 +56,6 @@ plugins:
     enabled: true
 
 exclude_patterns:
+  - .nyc_output/**
   - node_modules/**
+  - coverage/**

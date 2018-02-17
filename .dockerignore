@@ -4,6 +4,7 @@
 .gitignore
 .travis.yml
 /.nyc_output
+/coverage
 /node_modules
 Docerfile
 Makefile
