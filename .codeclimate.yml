@@ -55,6 +55,9 @@ plugins:
   markdownlint:
     enabled: true
 
+  shellcheck:
+    enabled: true
+
 exclude_patterns:
   - .nyc_output/**
   - node_modules/**
