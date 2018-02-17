@@ -31,7 +31,7 @@
   "scripts": {
     "pretest": "codeclimate analyze",
     "test": "tap test --100",
-    "coverage": "npm run coverage -- --coverage-report=lcov"
+    "coverage": "tap test --reporter silent --coverage --coverage-report=lcov"
   },
   "devDependencies": {
     "ajv": "^6.1.1",
