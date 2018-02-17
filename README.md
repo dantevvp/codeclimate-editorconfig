@@ -1,9 +1,6 @@
-# Code Climate EditorConfig [![License][license-image]][license-url]
+# Code Climate EditorConfig [![License][license-image]][license-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codeclimate-coverage]][codeclimate-url]
 
 > Static analysis tool that validates your project files with [EditorConfig][editorconfig]
-
-[![Build Status][travis-image]][travis-url]
-[![Coverage Status][codeclimate-coverage]][codeclimate-url]
 
 ## Usage
 
@@ -58,7 +55,7 @@
 [npm-downloads]: https://img.shields.io/npm/dm/${name}.svg?style=flat-square
 
 [codeclimate-url]: https://codeclimate.com/github/ahmadnassri/codeclimate-editorconfig
-[codeclimate-coverage]: https://img.shields.io/codeclimate/coverage/github/ahmadnassri/codeclimate-editorconfig.svg?style=flat-square
+[codeclimate-coverage]: https://api.codeclimate.com/v1/badges/f93b60303ce434b0b007/test_coverage
 
 [docker]: https://www.docker.com/
 [editorconfig]: http://editorconfig.org
