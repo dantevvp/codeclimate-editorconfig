@@ -1,8 +1,8 @@
 collectors:
-
-- type: js-npm
-  path: /
-  actors:
-  # pull requests for all major, minor, and patch updates
   - type: js-npm
-    versions: "Y.Y.Y"
+    path: /
+    actors:
+    - type: js-npm
+      versions: "Y.Y.Y"
+      settings:
+        github_labels: [dependencies]

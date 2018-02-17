@@ -20,4 +20,3 @@ after_script:
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
-    - /^greenkeeper\/.+/
