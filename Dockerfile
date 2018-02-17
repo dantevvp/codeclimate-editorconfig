@@ -14,4 +14,4 @@ USER app
 VOLUME /code
 WORKDIR /code
 
-CMD ["/usr/src/app/bin"]
+CMD ["/usr/src/app/bin.js"]

@@ -4,7 +4,7 @@ const { readFile } = require('fs')
 const { promisify } = require('util')
 const validator = require('.')
 
-read = promisify(readFile)
+const read = promisify(readFile)
 
 read('/config.json')
   .then(JSON.parse)
