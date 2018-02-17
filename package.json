@@ -30,8 +30,8 @@
   },
   "scripts": {
     "pretest": "codeclimate analyze",
-    "test": "tap test --100",
-    "coverage": "tap test --reporter silent --coverage --coverage-report=lcov"
+    "test": "tap test --100 --coverage-report=lcov --no-browser",
+    "coverage": "opener coverage/lcov-report/index.html"
   },
   "devDependencies": {
     "ajv": "^6.1.1",
