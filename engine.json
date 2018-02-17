@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "name": "editorconfig",
+  "description": "Static analysis tool that validates your project files with EditorConfig",
+  "languages": ["*"],
+  "maintainer": {
+    "name": "Ahmad Nassri",
+    "email": "ahmad@ahmadnassri.com"
+  }
+}

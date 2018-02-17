@@ -1,0 +1,10 @@
+.codeclimate.yml
+.editorconfig
+.eslintrc
+.gitignore
+.travis.yml
+/.nyc_output
+/node_modules
+Docerfile
+Makefile
+README.md

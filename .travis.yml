@@ -1,0 +1,23 @@
+language: node_js
+
+node_js: 9
+
+cache:
+  directories:
+    - node_modules
+
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - curl -L https://github.com/ahmadnassri/codeclimate/archive/patch-1.tar.gz | tar xvz
+  - cd codeclimate-* && sudo make install
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
+after_script:
+  - npm run coverage -- --coverage-report=text-lcov
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+    - /^greenkeeper\/.+/
