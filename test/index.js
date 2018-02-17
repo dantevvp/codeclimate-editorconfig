@@ -39,7 +39,7 @@ function validate (config) {
 test('fail if missing config', assert => {
   assert.plan(1)
 
-  assert.rejects(editorconfig({}, null, fixtures))
+  assert.rejects(editorconfig())
 })
 
 test('Support EditorConfig native configuration', assert => {
