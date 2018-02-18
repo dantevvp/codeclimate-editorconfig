@@ -28,18 +28,18 @@
   "bugs": {
     "url": "https://github.com/ahmadnassri/codeclimate-editorconfig/issues"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "scripts": {
-    "pretest": "codeclimate analyze",
+    "pretest": ".scripts/codeclimate analyze",
     "test": "tap test --100 --coverage-report=lcov --no-browser",
     "coverage": "opener coverage/lcov-report/index.html"
   },
   "devDependencies": {
     "ajv": "^6.1.1",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^6.0.0",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1",
     "tap": "^11.1.0"
   },
   "dependencies": {
