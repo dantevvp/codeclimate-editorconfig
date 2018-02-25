@@ -5,7 +5,7 @@ const { Writable } = require('stream')
 const Ajv = require('ajv')
 const editorconfig = require('..')
 
-const schema = require('./schema')
+const schema = require('./schema.json')
 
 const fixtures = join(__dirname, 'fixtures')
 
