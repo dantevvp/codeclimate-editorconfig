@@ -28,14 +28,11 @@
   "bugs": {
     "url": "https://github.com/ahmadnassri/codeclimate-editorconfig/issues"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "scripts": {
-    "pretest": ".scripts/codeclimate analyze",
-    "test": "tap test --100 --coverage-report=lcov --no-browser",
+    "pretest": "npm run test:codeclimate",
+    "test": "npm run test:tap",
+    "test:codeclimate": ".scripts/codeclimate analyze",
+    "test:tap": "tap test --100 --coverage-report=lcov --no-browser",
     "coverage": "opener coverage/lcov-report/index.html"
   },
   "devDependencies": {
