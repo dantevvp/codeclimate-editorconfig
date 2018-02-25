@@ -6,7 +6,7 @@ WORKDIR /usr/src/app/
 COPY . ./
 
 # install dependencies
-RUN apk add --no-cache --virtual .run-deps grep && npm install
+RUN apk add --no-cache --virtual .run-deps grep && npm install --production
 
 RUN adduser -u 9000 -S -s /bin/false app
 USER app
