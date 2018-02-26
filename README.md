@@ -2,7 +2,18 @@
 
 > Static analysis tool that validates your project files with [EditorConfig][editorconfig]
 
-## Usage
+## Usage with `codeclimate.com`
+
+Enable the engine through the `beta` channel in your `.codeclimate.yml` file:
+
+```yaml
+plugins:
+  editorconfig:
+    enabled: true
+    channel: beta
+```
+
+## Local Usage _(development)_
 
 * install [Docker][docker]
 
