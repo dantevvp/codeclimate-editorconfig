@@ -1,0 +1,66 @@
+[
+  {
+    "type": "issue",
+    "severity": "minor",
+    "categories": [
+      "Style"
+    ],
+    "check_name": "INDENTATION_SPACES",
+    "description": "Unexpected tabs found.",
+    "location": {
+      "path": "demo.md",
+      "lines": {
+        "begin": 1,
+        "end": 1
+      }
+    }
+  },
+  {
+    "type": "issue",
+    "severity": "minor",
+    "categories": [
+      "Style"
+    ],
+    "check_name": "INDENTATION_SPACES_AMOUNT",
+    "description": "Expected an indentation at 4 instead of at 3.",
+    "location": {
+      "path": "demo.md",
+      "lines": {
+        "begin": 2,
+        "end": 2
+      }
+    }
+  },
+  {
+    "type": "issue",
+    "severity": "minor",
+    "categories": [
+      "Style"
+    ],
+    "check_name": "INDENTATION_SPACES_AMOUNT",
+    "description": "Expected an indentation at 4 instead of at 3.",
+    "location": {
+      "path": "demo.md",
+      "lines": {
+        "begin": 3,
+        "end": 3
+      }
+    }
+  },
+  {
+    "type": "issue",
+    "severity": "minor",
+    "categories": [
+      "Style"
+    ],
+    "check_name": "INDENTATION_SPACES_AMOUNT",
+    "description": "Expected an indentation at 4 instead of at 3.",
+    "location": {
+      "path": "demo.md",
+      "lines": {
+        "begin": 4,
+        "end": 4
+      }
+    }
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "/code/demo.md": {
+    "1": [
+      {
+        "line": 1,
+        "code": "INDENTATION_SPACES",
+        "type": "warning",
+        "message": "Unexpected tabs found."
+      }
+    ],
+    "2": [
+      {
+        "line": 2,
+        "code": "INDENTATION_SPACES_AMOUNT",
+        "type": "warning",
+        "message": "Expected an indentation at 4 instead of at 3.",
+        "payload": {
+          "expected": 4,
+          "indent": 3
+        }
+      }
+    ],
+    "3": [
+      {
+        "line": 3,
+        "code": "INDENTATION_SPACES_AMOUNT",
+        "type": "warning",
+        "message": "Expected an indentation at 4 instead of at 3.",
+        "payload": {
+          "expected": 4,
+          "indent": 3
+        }
+      }
+    ],
+    "4": [
+      {
+        "line": 4,
+        "code": "INDENTATION_SPACES_AMOUNT",
+        "type": "warning",
+        "message": "Expected an indentation at 4 instead of at 3.",
+        "payload": {
+          "expected": 4,
+          "indent": 3
+        }
+      }
+    ]
+  }
+}
