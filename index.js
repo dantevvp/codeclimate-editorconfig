@@ -3,7 +3,7 @@ const { join } = require('path')
 const glob = require('fast-glob')
 const Lintspaces = require('lintspaces')
 
-const processIssues = require('./lib/process-issues')
+const issues = require('./lib/issues')
 
 // lintspaces configuration
 const ignores = [
@@ -43,9 +43,7 @@ module.exports = (config = {}, output = process.stdout, cwd = '/code') => {
     stream.on('data', file => lintspaces.validate(file))
     stream.once('end', () => {
       const files = lintspaces.getInvalidFiles()
-      const issues = processIssues(files, cwd)
-
-      issues.forEach(issue => output.write(JSON.stringify(issue) + '\0'))
+      issues(files, cwd).forEach(issue => output.write(JSON.stringify(issue) + '\0'))
 
       resolve()
     })
