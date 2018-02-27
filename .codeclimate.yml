@@ -1,5 +1,10 @@
 version: "2"
 
+checks:
+  method-complexity:
+    config:
+      threshold: 6
+
 plugins:
   duplication:
     enabled: true
@@ -23,6 +28,10 @@ plugins:
 
   shellcheck:
     enabled: true
+
+  editorconfig:
+    enabled: true
+    channel: beta
 
 exclude_patterns:
   - .nyc_output/**
