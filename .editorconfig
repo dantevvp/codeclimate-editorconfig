@@ -10,3 +10,12 @@ trim_trailing_whitespace = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
+
+[test/fixtures/file.a]
+indent_size = 1
+
+[test/fixtures/file.b]
+indent_size = 3
