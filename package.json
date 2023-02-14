@@ -41,6 +41,6 @@
   },
   "dependencies": {
     "fast-glob": "^2.0.4",
-    "lintspaces": "^0.6.0"
+    "lintspaces": "^0.6.4"
   }
 }
