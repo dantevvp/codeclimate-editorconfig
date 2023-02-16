@@ -40,7 +40,7 @@
     "tap": "^11.1.0"
   },
   "dependencies": {
-    "fast-glob": "^2.0.4",
+    "fast-glob": "^3.2.12",
     "lintspaces": "^0.10.2"
   }
 }
