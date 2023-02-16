@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM node:18.14.0-alpine3.17
 LABEL maintainer="Ahmad Nassri <ahmad@ahmadnassri.com>"
 
 WORKDIR /usr/src/app/
